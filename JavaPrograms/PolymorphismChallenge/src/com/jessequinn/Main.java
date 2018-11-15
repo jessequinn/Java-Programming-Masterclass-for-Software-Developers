@@ -64,17 +64,17 @@ class Holden extends Car {
 
     @Override
     public String startEngine() {
-        return getClass().getSimpleName() +  " -> startEngine()";
+        return getClass().getSimpleName() + " -> startEngine()";
     }
 
     @Override
     public String accelerate() {
-        return getClass().getSimpleName() +  " -> accelerate()";
+        return getClass().getSimpleName() + " -> accelerate()";
     }
 
     @Override
     public String brake() {
-        return getClass().getSimpleName() +  " -> brake()";
+        return getClass().getSimpleName() + " -> brake()";
     }
 }
 
@@ -103,7 +103,7 @@ class Ford extends Car {
 public class Main {
 
     public static void main(String[] args) {
-	    // We are going to go back to the car analogy.
+        // We are going to go back to the car analogy.
         // Create a base class called Car
         // It should have a few fields that would be appropriate for a generice car calss.
         // engine, cylinders, wheels, etc.
